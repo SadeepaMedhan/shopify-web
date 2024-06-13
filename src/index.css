@@ -15,3 +15,67 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Global CSS or Tailwind CSS configuration */
+.btn-nav {
+  padding: 0.5rem 1rem;
+  background-color: #3490dc;
+  color: #fff;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-nav:hover {
+  background-color: #1a202c;
+}
+
+.btn-signup {
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-signin {
+  padding: 0.5rem 1rem;
+  background-color: #9b394c;
+  color: #fff;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  padding: 0.5rem 1rem;
+  background-color: #1a202c;
+  color: #fff;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #2d3748;
+}
+
+.btn-secondary {
+  padding: 0.5rem 1rem;
+  background-color: #38a169;
+  color: #fff;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #2f855a;
+}
+
+.badge {
+  position: absolute;
+  top: -0.5rem;
+  right: -0.5rem;
+  background-color: #f59e0b;
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+}

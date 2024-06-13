@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 const AdminDashboard = () => {
   const [productName, setProductName] = useState('');
@@ -41,7 +42,20 @@ const AdminDashboard = () => {
 
   return (
     <div className="container mx-auto py-6">
-      <h1 className="text-3xl font-bold mb-4">Admin Dashboard</h1>
+     
+      {/* Navbar */}
+      <nav className="flex justify-between items-center mb-8">
+        <h1 className="text-3xl font-bold">Admin Dashboard</h1>
+        <div>
+          <Link
+            to="/"
+            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mr-4"
+          >
+            Home
+          </Link>
+         
+        </div>
+      </nav>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
